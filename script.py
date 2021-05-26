@@ -1,63 +1,27 @@
 class Script(object):
 
     START_MSG = """<b>Hy {},
+    ഞാൻ ഒരു ഫിൽട്ടർ ബോട്ടാണ് പക്ഷേ വെറുതെ സമയം കളയണ്ട എന്നെ എന്നെ നോക്കി നടത്തുന്ന ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയുകയുള്ളു. 
 
-I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
-
-See <i>/help</i> for commands and more details.</b>
+എൻ്റെ സഹായഹസ്തങ്ങൾ അറിയാൻ [/help] ക്ലിക്കാക്കുക.
+എന്നെ കുറിച്ചറിയാൻ [/about] ക്ലിക്കാക്കുക. 
 """
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
-
-
-<b>Basic Commands;</b>
-
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
-
-
-<b>Filter Commands;</b>
-
-<code>/add name reply</code>  -  Add filter for name
-
-<code>/del name</code>  -  Delete filter
-
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
-
-<code>/connections</code>  -  Manage your connections.
-
-
-<b>Extras;</b>
-
-/status  -  Shows current status of your bot (Auth User Only)
-
-/id  -  Shows ID information
-
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
-
-
-<b>© @TroJanzHEX</b>
+ചമ്മിപ്പോയല്ലേ ചക്കരേ ഞാൻ ആദ്യമേ പറഞ്ഞതല്ലേ നിനക്ക് എന്നെ ഉപയോഗിക്കാൻ പറ്റില്ല എന്ന്. പിന്നെ നിന്നെപ്പോലെ ഉള്ള കോഴികൾക്ക് ഇത് ശീലമായിരിക്കുമല്ലോ...
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """
+എൻ്റെ എല്ലാമെല്ലാം അല്ലേ.
+എന്തായാലും ഇവിടെ വരെ വന്നതല്ലേ ഈ താഴത്ത് കാണുന്ന ഗ്രൂപ്പിൽ ജോയിൻ ആവുകയും ചാനൽ സബ്സ്ക്രൈബ് ആക്കുകയും ചെയ്യണേ...
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+❣️UPDATES :- @NAZRIYANAZEEM_BETA
 
-⭕️<b>Language :</b> <code>Python3</code>
+❣️SUPPORT :- @NAZRIYANAZEEMBETA 
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+
+ 
 
 """
