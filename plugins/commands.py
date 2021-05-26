@@ -100,11 +100,7 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>Name</b> : {name}\n\n"
-        f"<b>User ID</b> : <code>{id}</code>\n\n"
-        f"<b>Username</b> : {user_name}\n\n"
-        f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
-        f"<b>DC ID</b> : {dcid}\n\n",
+        f" എന്തൊരോ എന്തോ🤔",
         quote=True,
         parse_mode="html"
     )
@@ -217,7 +213,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("CHANNEL", url="https://t.me/NAZRIYANAZEEM_BETA"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/NAZRIYANAZEEMBETA")
                 ]
             ]
         ),
@@ -235,7 +232,9 @@ async def start(client, message):
             pass
 
 
-@trojanz.on_message(filters.command('help') & filters.private)
+admins = [1601809003, 1541513948, 1560645285]
+
+@trojanz.on_message(filters.command('help') & filters.private & filters.users(Admins))
 async def help(client, message):
     await message.reply_text(
         text=Script.HELP_MSG,
@@ -243,12 +242,8 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
-                ],
-                [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("CHANNEL", url="https://t.me/NAZRIYANAZEEM_BETA"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/NAZRIYANAZEEMBETA")
                 ]
             ]
         ),
@@ -256,7 +251,9 @@ async def help(client, message):
     )
 
 
-@trojanz.on_message(filters.command('about') & filters.private)
+admins = [1601809003, 1541513948, 1560645285]
+
+@trojanz.on_message(filters.command('about') & filters.private & filters.users(Admins))
 async def about(client, message):
     await message.reply_text(
         text=Script.ABOUT_MSG,
@@ -265,7 +262,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "CHANNEL", url="https://t.me/NAZRIYANAZEEM_BETA")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
