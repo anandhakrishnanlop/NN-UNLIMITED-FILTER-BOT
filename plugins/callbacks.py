@@ -30,8 +30,8 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CHANNEL", url="https://t.me/NN_NAZRIYANAZEEM_BETA"),
-                    InlineKeyboardButton("GROUP", url="https://t.me/NN_NAZRIYANAZEEMBETA")
+                    InlineKeyboardButton("CHANNEL", url="https://t.me/ssm_links"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/ssm_chat")
                 ]
             ]
         )
@@ -48,8 +48,8 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CHANNEL", url="https://t.me/NN_NAZRIYANAZEEM_BETA"),
-                    InlineKeyboardButton("GROUP", url="https://t.me/NN_NAZRIYANAZEEMBETA")
+                    InlineKeyboardButton("CHANNEL", url="https://t.me/ssm_links"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/ssm_chat")
                 ]
             ]
         )
@@ -66,8 +66,8 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CHANNEL", url="https://t.me/NN_NAZRIYANAZEEM_BETA"),
-                    InlineKeyboardButton("GROUP", url="https://t.me/NN_NAZRIYANAZEEMBETA")
+                    InlineKeyboardButton("UPDATES", url="https://t.me/NN_NAZRIYANAZEEM_BETA")
+                    
                 ]
             ]
         )
