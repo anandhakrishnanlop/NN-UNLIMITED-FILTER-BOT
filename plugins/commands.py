@@ -213,8 +213,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CHANNEL", url="https://t.me/NAZRIYANAZEEM_BETA"),
-                    InlineKeyboardButton("GROUP", url="https://t.me/NAZRIYANAZEEMBETA")
+                    InlineKeyboardButton("CHANNEL", url="https://t.me/NN_NAZRIYANAZEEM_BETA"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/NN_NAZRIYANAZEEMBETA")
                 ]
             ]
         ),
@@ -242,8 +242,8 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("CHANNEL", url="https://t.me/NAZRIYANAZEEM_BETA"),
-                    InlineKeyboardButton("GROUP", url="https://t.me/NAZRIYANAZEEMBETA")
+                    InlineKeyboardButton("CHANNEL", url="https://t.me/NN_NAZRIYANAZEEM_BETA"),
+                    InlineKeyboardButton("GROUP", url="https://t.me/NN_NAZRIYANAZEEMBETA")
                 ]
             ]
         ),
@@ -262,7 +262,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "CHANNEL", url="https://t.me/NAZRIYANAZEEM_BETA")
+                        "CHANNEL", url="https://t.me/NN_NAZRIYANAZEEM_BETA")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
